@@ -3,9 +3,10 @@
 This section implements a reinforcement learning agent that learns to play the classic Atari game Breakout using the Duelling Deep Q-Network (Duelling DQN) algorithm implemented in PyTorch.
 
 
-**Overview:** The Duelling DQN architecture is a variation of the Deep Q-Network (DQN) algorithm, which is a deep reinforcement learning technique that uses a deep neural network to approximate the Q-function, which represents the expected future reward for each possible action in a given state. The Duelling DQN architecture separates the network into two streams: one that estimates the state value function, and another that estimates the advantage function for each action. This allows the network to learn a more stable and accurate Q-function, leading to improved performance on various Atari games, including Breakout.
+## Overview:-
+The Duelling DQN architecture is a variation of the Deep Q-Network (DQN) algorithm, which is a deep reinforcement learning technique that uses a deep neural network to approximate the Q-function, which represents the expected future reward for each possible action in a given state. The Duelling DQN architecture separates the network into two streams: one that estimates the state value function, and another that estimates the advantage function for each action. This allows the network to learn a more stable and accurate Q-function, leading to improved performance on various Atari games, including Breakout.
 
-**Features:-**
+## Features:-
 
 - Duelling DQN architecture implemented in PyTorch
 - Experience replay buffer for efficient training
@@ -14,7 +15,7 @@ This section implements a reinforcement learning agent that learns to play the c
 - Evaluation of the agent's performance during training
 - Saving and loading of trained models
 
-**Steps of Execution:-**
+## Steps of Execution:-
 
 1. Install the required dependencies
 2. If you experience some error similar to this:-
@@ -34,3 +35,7 @@ This section implements a reinforcement learning agent that learns to play the c
 5. The training progress and evaluation results will be displayed in the console
 6. Model Performance visualisation can be found in plots folder
 7. Run test.py to verify the model performance
+
+## Acknowledgement:-
+
+The implementation was heavily influenced by the YouTube tutorials of Robert Cowher, whose content was instrumental in understanding the Duelling DQN algorithm and its application to Atari games.
